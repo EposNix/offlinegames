@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Iframe Game</title>
+</head>
+<body>
+<button id="btn">Click me</button>
+<script>
+const btn = document.getElementById('btn');
+btn.addEventListener('click', () => {
+  btn.textContent = 'Clicked!';
+  btn.style.background = '#f90';
+});
+window.addEventListener('message', (e) => {
+  if(e.data && e.data.type === 'pause') console.log('iframe paused');
+  if(e.data && e.data.type === 'resume') console.log('iframe resumed');
+});
+</script>
+</body>
+</html>

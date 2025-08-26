@@ -22,11 +22,11 @@ You are generating a complete, runnable web project.
          sample-2048/
            manifest.json
            main.js
-           thumb.webp      (placeholder via data URL if needed)
+
          sample-iframe/
            manifest.json
            index.html
-           thumb.webp
+
      ```
    * The **auto-discovery** happens via `import.meta.glob`:
 
@@ -46,7 +46,7 @@ You are generating a complete, runnable web project.
        "entry": "main.js",
        "sandbox": "module",         // "module" or "iframe"
        "orientation": "portrait",   // not enforced yet
-       "thumbnail": "thumb.webp",
+       "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",
        "tags": ["puzzle","numbers"],
        "minAppVersion": "1.0.0",
        "capabilities": { "haptics": true, "audio": true, "save": true }
@@ -179,8 +179,8 @@ Include all files listed in the structure, with working, minimal implementations
 * `src/router.js` (hash routing).
 * `src/registry.js` (import.meta.glob discovery + validation + asset URL resolve).
 * `src/services.js` (stubs + localStorage namespace + lifecycle).
-* `src/games/sample-2048/manifest.json`, `main.js`, `thumb.webp` (use tiny data-URL if needed).
-* `src/games/sample-iframe/manifest.json`, `index.html`, `thumb.webp` (data-URL ok).
+* `src/games/sample-2048/manifest.json`, `main.js`
+* `src/games/sample-iframe/manifest.json`, `index.html`
 
 Ensure the app boots to `#/menu`, shows two tiles, and can enter/exit both games cleanly.
 

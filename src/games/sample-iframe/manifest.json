@@ -1,0 +1,12 @@
+{
+  "id": "iframe-demo",
+  "name": "Iframe Demo",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "sandbox": "iframe",
+  "orientation": "portrait",
+  "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",
+  "tags": ["demo"],
+  "minAppVersion": "1.0.0",
+  "capabilities": { "haptics": false, "audio": false, "save": false }
+}
