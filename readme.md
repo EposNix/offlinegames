@@ -1,9 +1,3 @@
-gotcha. here’s a single, drop-in **Codex CLI prompt** you can paste that tells it exactly what to build: a PC-tested, web-only auto-discovery launcher using Vite + vanilla JS, with plop-n-play game folders and both **ES module** and **iframe** sandboxes. It also specifies the output file format so your CLI can save multiple files cleanly. 😈
-
----
-
-## Prompt for Codex (paste everything below)
-
 You are generating a complete, runnable web project.
 **Goal:** Build a simple HTML/JS “mini-arcade” launcher that **auto-discovers games** by scanning `src/games/*/manifest.json` at build time. Show an auto-generated menu grid with tiles; clicking a tile loads the game in either **ES module** or **iframe** mode according to its manifest. This is for **PC testing only** (no mobile polish yet).
 
@@ -193,3 +187,4 @@ Ensure the app boots to `#/menu`, shows two tiles, and can enter/exit both games
 ---
 
 that prompt should make Codex roll up its sleeves and spit out a fully working starter. want me to also give you an equivalent **Node build-script** variant (index.json approach) in case you ditch Vite later? I can whip that up too 😈
+
