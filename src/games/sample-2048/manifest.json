@@ -1,0 +1,12 @@
+{
+  "id": "2048",
+  "name": "2048",
+  "version": "1.0.0",
+  "entry": "main.js",
+  "sandbox": "module",
+  "orientation": "portrait",
+  "thumbnail": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",
+  "tags": ["puzzle", "numbers"],
+  "minAppVersion": "1.0.0",
+  "capabilities": { "haptics": true, "audio": true, "save": true }
+}
