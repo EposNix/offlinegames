@@ -184,7 +184,4 @@ Include all files listed in the structure, with working, minimal implementations
 
 Ensure the app boots to `#/menu`, shows two tiles, and can enter/exit both games cleanly.
 
----
-
-that prompt should make Codex roll up its sleeves and spit out a fully working starter. want me to also give you an equivalent **Node build-script** variant (index.json approach) in case you ditch Vite later? I can whip that up too 😈
 
